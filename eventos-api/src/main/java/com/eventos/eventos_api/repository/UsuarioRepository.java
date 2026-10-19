@@ -18,4 +18,4 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
     // SELECT COUNT(*) > 0 FROM usuario WHERE email = ?
     // Usado no cadastro para verificar se o e-mail já foi registrado
     boolean existsByEmail(String email);
-} 
+}
