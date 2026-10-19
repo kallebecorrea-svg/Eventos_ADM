@@ -1,0 +1,3 @@
+# Exemplo de configuração local; não inclua senhas reais neste arquivo.
+# Configure DB_PASSWORD no ambiente antes de iniciar a aplicação.
+spring.datasource.password=${DB_PASSWORD:}

@@ -1,0 +1,15 @@
+# Arquivos com senhas e segredos locais
+**/application-local.properties
+**/*.env
+.env
+.env.*
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Maven / Build
+**/target/
